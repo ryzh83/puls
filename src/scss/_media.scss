@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+  .header {
+    justify-content: space-around;
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+  .pluses {
+    &__item {
+      width: 220px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    flex-direction: column;
+    &__oficial {
+      margin-top: 10px;
+      span {
+        margin-top: 2px;
+      }
+    }
+    &__contacts {
+      margin-top: 15px;
+    }
+    &__phone {
+      margin-top: 10px;
+    }
+    &__logo {
+      width: 180px;
+    }
+  }
+  .pluses {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
