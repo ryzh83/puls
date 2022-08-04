@@ -1,11 +1,6 @@
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .header {
     justify-content: space-around;
-  }
-  .promo {
-    &__wrapper {
-      align-items: center;
-    }
   }
   .pluses {
     &__item {
@@ -13,7 +8,35 @@
     }
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 991px) {
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+  .pluses {
+    &__wrapper {
+      justify-content: space-around;
+    }
+  }
+  .title {
+    &_left {
+      font-size: 34px;
+      margin-left: 20px;
+    }
+  }
+  .consultation {
+    &__descr {
+      margin-left: 20px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .feed-form {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
   .header {
     flex-direction: column;
     &__oficial {
@@ -37,5 +60,27 @@
       flex-direction: column;
       align-items: center;
     }
+  }
+}
+@media (max-width: 575px) {
+  .promo {
+    &__header {
+      font-size: 35px;
+      text-align: center;
+    }
+    &__subheader {
+      font-size: 20px;
+      text-align: center;
+    }
+    &__icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .title {
+    font-size: 25px;
+  }
+  .feed-form {
+    width: 85%;
   }
 }
