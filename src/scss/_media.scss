@@ -55,6 +55,17 @@
       justify-content: space-around;
     }
   }
+  .reviews {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20px;
+    }
+    &__descr {
+      text-align: center;
+      margin-top: 25px;
+    }
+  }
 }
 @media (max-width: 767px) {
   .header {
@@ -91,6 +102,14 @@
   }
   .catalog__tabs {
     padding: 0 15px;
+  }
+  .reviews {
+    &__descr {
+      width: 80%;
+      p {
+        line-height: 20px;
+      }
+    }
   }
 }
 @media (max-width: 575px) {
