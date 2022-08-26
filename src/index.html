@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Пульс</title>
   </head>
@@ -71,7 +72,11 @@
             </p>
           </div>
           <div class="pluses__item">
-            <img src="images/icon/22.png" alt="пульс" />
+            <img
+              src="images/icon/22.png"
+              alt="пульс"
+              class="pluses__item_animated"
+            />
             <h3>Заботимся о здоровье</h3>
             <p>
               Мы работаем для того, чтобы Ваши занятия спортом шли на пользу
@@ -487,7 +492,10 @@
     <section class="reviews">
       <div class="container">
         <h2 class="title">отзывы клиентов</h2>
-        <div class="reviews__item">
+        <div
+          class="reviews__item animate__animated animate__backInDown wow"
+          data-wow-offset="200"
+        >
           <div class="reviews__img">
             <img src="images/o1.jpg" alt="Ирина" />
           </div>
@@ -505,7 +513,10 @@
             <p>Спасибо, RunSmart!</p>
           </div>
         </div>
-        <div class="reviews__item">
+        <div
+          class="reviews__item animate__animated animate__backInLeft wow"
+          data-wow-offset="200"
+        >
           <div class="reviews__img">
             <img src="images/o2.jpg" alt="Иван" />
           </div>
@@ -526,7 +537,10 @@
             <p>С ними подготовился к своему первому полумарафону! Спасибо!!!</p>
           </div>
         </div>
-        <div class="reviews__item">
+        <div
+          class="reviews__item animate__animated animate__backInRight wow"
+          data-wow-offset="200"
+        >
           <div class="reviews__img">
             <img src="images/o3.jpg" alt="Юлия" />
           </div>
@@ -612,6 +626,7 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
